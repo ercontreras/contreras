@@ -1,0 +1,30 @@
+@media screen and (max-width: 980px){
+	/*En caso que la pantalla no alcance el ancho de 980px… */
+	header{top:20%;}
+	header svg{height: 75px; width:auto;}
+	/*…solo cambio un par de reglas*/
+}
+
+@media screen and (max-width: 760px){
+	/*En caso que la pantalla no alcance el ancho de 720px… */
+	header{top:10%;}
+	header svg{display:none;}
+	/*…solo cambio un par de reglas*/
+}
+
+@media screen and (orientation: portrait){
+
+	.dupla{
+		width:96%;
+		padding:2%;
+		float:left;
+	}
+	.item{
+		width:48%;
+		margin:1%;
+	}
+
+	footer hr{
+	width:20%;
+	}
+}

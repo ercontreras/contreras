@@ -27,23 +27,22 @@ h5, h6{
 	font-weight:700;
 }
 
-h1{
-	color:rgba(255,246,237,0.75);
+h1, h2{
+	color:rgba(101,44,44,0.75); 
 }
 
 h2{
-	color:rgba(255,246,237,0.75);
 	padding:0.2em 0; 
 }
 
 h3{
-	color:rgba(0,0,0,1); 
+	color:rgba(101,44,44,1); 
 	padding:2em 0 0.6em 0; 
 }
 
 #contenido{
-	width:98%; 
-	margin:1% auto;
+	width:100%; 
+	margin:0 auto;
 }
 
 header{
@@ -82,20 +81,23 @@ video{
 	}
 
 .dupla a{
-	color:rgba(63,32,32,0.5);
+	background:rgba(63,32,32,0.75);
+	color:rgba(255,246,237,0.75);
+	border-radius: 0.25em;
+	padding: 0.5em;
 	text-decoration:none;
 	font-weight:700;
 }
 
 .dupla a:hover{
-	color:rgba(63,32,32,1);
-	text-decoration:underline;
+	background:rgba(63,32,32,1);
+	color:rgba(255,246,237,1);
 }
 
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-image:url('../images/dupla-primera.jpg');
+	background-image:url('../images/dupla-primera.png');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -111,7 +113,7 @@ video{
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-image:url('../images/dupla-segunda.jpg');
+	background-image:url('../images/dupla-segunda.png');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -166,7 +168,7 @@ video{
 	margin:1%;
 	background:rgba(255,246,237,0.75);
 	color:rgba(143,116,90,1);
-	box-shadow:0 0 5px rgb(240,240,240);
+	box-shadow:0 0 7px rgba(255,246,237,0.75);
 }
 
 .item figure{overflow:hidden;}
